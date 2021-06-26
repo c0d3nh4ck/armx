@@ -22,7 +22,6 @@ done
 
 docker run \
 	-it \
-	--privileged \
 	${PORTSTRING} \
 	-e PORTFWD="${PORTFWD}" \
 	--rm \
